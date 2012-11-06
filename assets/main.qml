@@ -4,13 +4,13 @@ import bb.cascades 1.0
 TabbedPane {
     showTabsOnActionBar: true
     Tab {
-        title: qsTr("Tab 1 MASTER!")
+        title: qsTr(" MASTER C2!")
         Page {
             id: tab1
             actions: [
                 // define the actions for first tab here
                 ActionItem {
-                    title: qsTr("Rotate")
+                    title: qsTr("Rotate C2")
                     onTriggered: {
                         imgTab1.rotationZ = imgTab1.rotationZ + 90;
                     }
